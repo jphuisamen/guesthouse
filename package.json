@@ -1,0 +1,19 @@
+{
+  "name": "guesthouse",
+  "version": "0.0.0",
+  "description": "One page website for guesthouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jphuisamen/guesthouse.git"
+  },
+  "author": "J.P. Huisamen @ jphuisamen@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jphuisamen/guesthouse/issues"
+  },
+  "homepage": "https://github.com/jphuisamen/guesthouse#readme"
+}
