@@ -1,0 +1,35 @@
+{>"header"/}
+{<content}
+  <div class="content">
+    <div class="cont_header">
+        <h1>Bird watching</h1>
+    </div>
+    <div class="cont_sect">
+      <img src="../images/guesthouse/activities/birding.jpg" alt="" />
+      <div class="cont_info">
+        <div class="cont_descr">
+          <p>
+            here goes the despriction
+          </p>
+        </div>
+        <div class="cont_rate">
+          <h2>Rate - R300</h2>
+        </div>
+      </div>
+    </div>
+    <div class="banner">
+      <img src="../images/guesthouse/banner3.jpg" />
+    </div>
+    <div class="cont_gall">
+      <div class="images_title">
+        <a href="#"><img src="./images/guesthouse/activities/birding.jpg" alt="" /></a>
+      </div>
+      <div class="images_title">
+        <a href="#"><img src="./images/guesthouse/activities/birding.jpg" alt="" /></a>
+      </div>
+      <div class="images_title">
+        <a href="#"><img src="./images/guesthouse/activities/birding.jpg" alt="" /></a>
+      </div>
+    </div>
+  </div>
+{/content}

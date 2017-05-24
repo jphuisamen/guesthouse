@@ -1,0 +1,79 @@
+{>"base"/}
+{+body}
+<body>
+  <div class="body" style="clear: both">
+    <div class="banner">
+      <img src="../images/guesthouse/banner1.jpg" />
+    </div>
+    <div class="header_panel">
+        <div class="header_list">
+          <ul>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">gallery</a>
+            <a href="#">rates</a>
+            <a href="#">activities</a>
+            <a href="#">maps</a>
+            <a href="#">contact us</a>
+          </ul>
+        </div>
+        <div class="header_name">
+          <h1>Overberg adventures</h1>
+        </div>
+      </div>
+      {+content}{/content}
+      <div class="contact_map" id="maps">
+        <div class="contact">
+          <script type="text/javascript" src="/js/contact.js"></script>
+          <div id="email_header">
+            <h2>Contact <span id="highlight">Overberg-adventures</span> for more info:</h2>
+          </div>
+          <div id="email">
+            <form action="mailsent.html" method="GET" enctype="text/plain">
+             <div class="email_subheading">
+               Name:<br>
+             </div>
+            <input type="text" name="name" style="height: 1.75em" required><br>
+             <div class="email_subheading">
+               E-mail:<br>
+             </div>
+            <input type="text" name="mail" style="height: 1.75em" required><br>
+
+             <div class="email_subheading">
+                Comment:<br>
+             </div>
+            <input type="text" id="emailcomment" name="comment" size="60em" style="height: 12em" required><br><br>
+            <div class="Buttons">
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+            </div>
+            </form>
+          </div>
+        </div>
+        <div class="maps">
+          <div class="map">
+            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:440px;'><div id='gmap_canvas' style='height:440px;width:440px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://mrdiscountcode.hk/zalora/">See more exclusive discount coupon for Zalora</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(-34.35292285583885,18.912635622020733),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-34.35292285583885,18.912635622020733)});infowindow = new google.maps.InfoWindow({content:'<strong>Bayside Backpackers</strong><br>2618 Clarence Dr, Betty\'s Bay, 7141<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>            </div>
+        </div>
+      </div>
+      <div class="header_panel">
+          <div class="footer_list">
+            <ul>
+              <li><a href="https://www.facebook.com/kroekdit/"><img src="/images/base/facebook.png" alt="facebook" height="40em"/></a></li>
+              <li><a href="https://www.instagram.com/karlikroek/"><img src="/images/base/instagram.png" alt="instagram" height="40em"/></a></li>
+              <li><a href="https://twitter.com/karliheine"><img src="/images/base/twitter.png" alt="twitter"  height="40em"/></a></li>
+            </ul>
+          </div>
+          <div class="tripAdvisor">
+            <div id="TA_linkingWidgetRedesign289" class="TA_linkingWidgetRedesign">
+            <ul id="9ayjmB16" class="TA_links tA2z7g5A1IQ">
+            <li id="99uO8Jg5" class="7uJVnpDyQ">
+            <a target="_blank" href="https://www.tripadvisor.com/"><img src="https://www.tripadvisor.com/img/cdsi/partner/tripadvisor_logo_115x18-15079-2.gif" alt="TripAdvisor"/></a>
+            </li>
+            </ul>
+            </div>
+            <script src="https://www.jscache.com/wejs?wtype=linkingWidgetRedesign&amp;uniq=289&amp;locationId=1746831&amp;lang=en_US&amp;border=true&amp;display_version=2"></script>
+          </div>
+        </div>
+    </div>
+</body>
+{/body}
