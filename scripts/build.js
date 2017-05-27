@@ -15,6 +15,7 @@ function main () {
     .then(() => mkdirs('www'))
     .then(() => mkdirs('www/css'))
     .then(() => less('styles/index.less', 'www/css/index.css'))
+    .then(() => less('styles/normalize.less', 'www/css/normalize.css'))
     .then(() => glob(
       'templates/partials/**/*.dust',
       dustPartial('templates/partials')
